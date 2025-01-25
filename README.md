@@ -1,5 +1,8 @@
 This repository is designed to facilitate the distribution of grading tasks among course graders.
 
+0. Run code
+python3 main.py
+
 1. Grader Configuration
 Grader names and their associated workload weights are stored in graderConfigs.py.
 
