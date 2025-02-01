@@ -8,7 +8,9 @@ Grader names and their associated workload weights are stored in graderConfigs.p
 
 2. Work Parameters
 Ns: Total number of submissions.
-Nq: Total number of questions (assumed to be numbered from 1 to Nq).
+qNames: Name of the questions could be 1,2,3, .. or A,B,C, .. or 0,1,2, ...
+workWeights: A list of Nq elements where the ith element indicates how much work is required to grade the ith question typically the number of points
+of that question
 
 3. Optional Input from main.py
 Sq (optional): Is a subset of [1..Nq]. Each question from the list of special question, SQ, is distributed to ALL graders in proportion to their assigned weights. For questions not in SQ, the system minimizes the number of distinct questions assigned to each grader, promoting task specialization.
